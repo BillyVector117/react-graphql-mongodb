@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 // 82Qq8HCGGh5DSaxp
-mongoose.connect('mongodb+srv://billy:ZyYmUSKSGJkaQKTp@cluster0.hfojr.mongodb.net/reactGraphQLMongo?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://XXXXXXXXXX:XXXXXXXXXX@cluster0.hfojr.mongodb.net/XXXXXXXXXX?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
