@@ -1,0 +1,21 @@
+type Query {
+    """ Here contains all queries names and its returned data type  """
+    ping: String!
+    messages: [Message!] 
+}
+type Message {
+    """ Same structure as Message Model (mongoose) """
+    _id: ID!,
+    title: String!,
+    content: String!,
+    author: String!
+}
+type Mutation {
+    """ Like functions...createMessage receive three params and returns Message data type """
+createMessage(title: String!, content: String, author: String!): Message,
+deleteMessage(id: ID!): Message,
+pingTesting(result: String!) : String!
+}
+
+
+
